@@ -12,11 +12,12 @@ text-decoration: none;
 text-shadow: 0px 8px 5px crimson;
 }
 img {
-  
+   
   border-radius: 900px;
  width:  150px;
  height: 150px;
  object-fit: cover;
+ background-size: cover;
 }
 #hero {
   background-image: url(https://www.shutterstock.com/image-photo/kushinagar-india-december-3-2006-260nw-1128015227.jpg);
@@ -30,6 +31,7 @@ img {
 color: #505701ff;
     background: #ab7222c4;
     padding: 1px;
+    background-size: cover;
 }
 #Places{
     display: flex;
@@ -54,4 +56,10 @@ h3,h4{
          border-radius: 20px;
          padding: 10px 10px;
     }
+    @media only screen and (max-width: 600px) {
+        #Places {
+          display: block;
+        }
+      }
+      
     
